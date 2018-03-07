@@ -128,7 +128,7 @@
     <div class="container-fluid jumbotron" style="margin-left: 0.6%; margin-right: 0.6%;">
       
        <div class="row" style="margin-left: 0.2%; margin-right: 0.2%;">
-           <h1 style="margin-left: 1%; margin-right: 1%; background: rgba(0,0,0,0.15); border-radius: 5px;">Auction Store</h1>
+           <h1 style="text-align:center; margin-left: 1%; margin-right: 1%; background: rgba(0,0,0,0.15); border-radius: 5px;">Auction Store</h1>
                     <div class="col-sm-3 col-lg-3 col-md-3">
                         <div class="thumbnail">
                             <img src="${Image}/back.jpg" alt="">
