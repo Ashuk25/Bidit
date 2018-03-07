@@ -1,0 +1,20 @@
+
+#image
+{
+    display: none;
+    width: 78%;
+}
+.choose
+{
+    padding: 3%;
+    background: white;
+    width: 78%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+

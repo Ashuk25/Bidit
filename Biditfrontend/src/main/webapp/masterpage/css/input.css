@@ -1,0 +1,67 @@
+
+.form-group input[type=email]
+{
+    padding-left: 40px;
+    
+}
+.form-group input[type=password]
+{
+    padding-left: 40px;
+   
+}
+.form-group input[type=text]
+{
+    padding-left: 40px;
+    
+}
+.form-group input[type=date]
+{
+    padding-left: 40px;
+   
+}
+.form-group select
+{
+    padding-left: 40px;
+   
+}
+.form-group textarea
+{
+    padding-left: 40px;
+  
+}
+.form-group
+{
+    position: relative;
+}
+.form-group span
+{
+    position: absolute;
+    left: 0px;
+    top: 8%;
+    padding: 8px 22px;
+    color:black;
+    font-size: 18px;
+}
+.form-group input[type=email]:focus +span
+{
+    color: dodgerblue;
+}
+
+.form-group input[type=password]:focus +span
+{
+    color: dodgerblue;
+}
+.form-group input[type=text]:focus +span
+{
+    color: dodgerblue;
+}
+.form-group input[type=date]:focus +span
+{
+    color: dodgerblue;
+}
+.form-group select:focus +span
+{
+    color: dodgerblue;
+}
+
+
