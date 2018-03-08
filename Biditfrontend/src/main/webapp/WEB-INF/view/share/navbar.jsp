@@ -8,7 +8,7 @@
     <div class="container-fluid"> 
         <div class="row">           
             <div class="col-lg-8">           
-                <img src="${Image}/Auction_logo1.jpg" class="img-responsive" />                                 
+                <a href="${contextRoot}home"><img src="${Image}/Auction_logo1.jpg" class="img-responsive" /></a>                                
             </div>
             
             <div class="col-lg-4">                
@@ -28,23 +28,23 @@
         <nav class="navbar-inverse">        
             <div class="navbar-collapse collapse" id="menu" style="margin-top: 10px;">             
                 <ul class="nav navbar-nav" style="text-align: center;">
-                    <li><a href="Home.jsp">Home</a></li>
+                    <li><a href="${contextRoot}home">Home</a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span></a>
                     <ul class="dropdown-menu navbar-inverse">
-                        <li><a href="Painting.jsp">Painting</a></li>
-                        <li><a href="Automobile.jsp">Automobile</a></li>
-                        <li><a href="Antique.jsp">Antique's</a></li>
+                        <li><a href="${contextRoot}Painting">Painting</a></li>
+                        <li><a href="${contextRoot}Automobile">Automobile</a></li>
+                        <li><a href="${contextRoot}Antique">Antique's</a></li>
                     </ul>
                     </li>      
-                    <li><a href="BuyItnow.jsp">Buy It Now</a></li>
-                    <li><a href="#">Help</a></li>                    
-                    <li><a href="#">About Us</a></li>                    
+                    <li><a href="${contextRoot}BuyItNow">Buy It Now</a></li>
+                    <li><a href="${contextRoot}Help">Help</a></li>                    
+                    <li><a href="${contextRoot}About">About Us</a></li>                    
                 </ul>
                 
                 <ul class="nav navbar-nav navbar-right" style="text-align: center;">
-                    <li><a href="SignIn.jsp"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
-                    <li><a href="SignUp.jsp">Sign Up</a></li>
-                    <li><a href="ContactUs.jsp">Contact Us</a></li>
+                    <li><a href="${contextRoot}SignIn"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+                    <li><a href="${contextRoot}SignUp">Sign Up</a></li>
+                    <li><a href="${contextRoot}ContactUs">Contact Us</a></li>
                 </ul>
                 
             </div>  

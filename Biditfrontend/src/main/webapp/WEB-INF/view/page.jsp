@@ -12,11 +12,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Auction World</title>
+        <title>Bidit - ${title}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="${css}/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="${css}/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="${css}/Home.css">
+        <link rel="stylesheet" type="text/css" href="${css}/input.css">
         <link rel="stylesheet" type="text/css" href="${css}/background.css">
         <script src="${js}/jquery-3.2.1.min.js"></script>
         <script src="${js}/jquery.lightbox-0.5.js"></script>
@@ -32,10 +33,46 @@
    
       
    <!-- End Header-->
-   
+   <c:if test="${userClickHome==true}">
    <%@include file="home.jsp" %>
+   </c:if>
    
+   <c:if test="${userClickPainting==true}">
+   <%@include file="Painting.jsp" %>
+   </c:if>
+   
+   <c:if test="${userClickAutomobile==true}">
+   <%@include file="Automobile.jsp" %>
+   </c:if>
+   
+   <c:if test="${userClickAntique==true}">
+   <%@include file="Antique.jsp" %>
+   </c:if>
         
+    <c:if test="${userClickBuyItNow==true}">
+   <%@include file="BuyItNow.jsp" %>
+   </c:if>
+   
+   <c:if test="${userClickHelp==true}">
+   <%@include file="Help.jsp" %>
+   </c:if>
+   
+   <c:if test="${userClickAboutUs==true}">
+   <%@include file="AboutUs.jsp" %>
+   </c:if>
+   
+   <c:if test="${userClickSignIn==true}">
+   <%@include file="SignIn.jsp" %>
+   </c:if>
+   
+   <c:if test="${userClickSignUp==true}">
+   <%@include file="SignUp.jsp" %>
+   </c:if>
+   
+   <c:if test="${userClickContactUs==true}">
+   <%@include file="ContactUs.jsp" %>
+   </c:if>
+   
     <!--Footer-->
 	<%@include file="./share/footer.jsp" %>
     <!--End Footer-->
