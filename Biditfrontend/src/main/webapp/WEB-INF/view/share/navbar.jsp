@@ -31,7 +31,7 @@
                     <li><a href="${contextRoot}home">Home</a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span></a>
                     <ul class="dropdown-menu navbar-inverse">
-                        <li><a href="${contextRoot}Painting">Painting</a></li>
+                        <li><a href="${contextRoot}Painting.jsp">Painting</a></li>
                         <li><a href="${contextRoot}Automobile">Automobile</a></li>
                         <li><a href="${contextRoot}Antique">Antique's</a></li>
                     </ul>
