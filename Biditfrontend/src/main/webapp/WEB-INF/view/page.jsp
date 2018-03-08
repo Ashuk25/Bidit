@@ -13,6 +13,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>BidIt - ${title}</title>
+        <script>
+        	Window.menu= '${title}';
+        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="${css}/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="${css}/bootstrap-theme.min.css">
@@ -23,7 +26,7 @@
         <script src="${js}/jquery.lightbox-0.5.js"></script>
         <script src="${js}/bootstrap.min.js"></script>
         <script src="${js}/Time.js"></script>
-  
+  		<script src="${js}/navactive.js"></script>
       
 </head>
 <body class="back" onload="currentTime();">  
