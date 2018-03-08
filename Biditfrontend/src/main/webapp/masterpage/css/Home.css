@@ -18,12 +18,12 @@ background:linear-gradient(gray,white);
 border-radius: 5px;
 box-shadow: 1px 4px 26px 11px rgba(0,0,0,0.25);
 }*/
-#menu ul li ul li a
+/*#menu ul li ul li a
 {
 font-weight: bold;
 color: white;
 text-align: center;
-}
+}*/
 #menu ul li ul li a:hover
 {
 background:linear-gradient(gray,white);
