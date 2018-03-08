@@ -20,9 +20,9 @@
                     <h3>Profile</h3> 
                     <hr>
                     <ul class="nav">
-                        <li><a href="Home.jsp">Home</a></li>
-                        <li><a href="SignIn.jsp">Sign In</a></li>
-                        <li><a href="SignUp.jsp">Sign Up</a></li>
+                        <li><a href="${contextRoot}/home">Home</a></li>
+                        <li><a href="${contextRoot}/SignIn">Sign In</a></li>
+                        <li><a href="${contextRoot}/SignUp">Sign Up</a></li>
                         <li><a href="#">Profile</a></li>
                         
                     </ul>                    
@@ -36,9 +36,9 @@
                 <ul class="nav">
                     <li data-toggle="collapse" data-target="#drop"><a href="#">Category<span class="caret"></span></a>
                         <ul class="nav collapse" id="drop">
-                            <li><a href="Painting.jsp">Painting</a></li>
-                            <li><a href="#">Automobile</a></li>
-                            <li><a href="#">Antique's</a>
+                            <li><a href=${contextRoot}/Painting">Painting</a></li>
+                            <li><a href="${contextRoot}/Automobile">Automobile</a></li>
+                            <li><a href="${contextRoot}/Antique">Antique's</a>
                         </ul>
                     </li>
                     <li><a href="#">Auction Gallery</a></li>
@@ -53,9 +53,9 @@
                 <h3>Support</h3>
                 <hr>
                 <ul class="nav">
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="${contextRoot}/ContactUs">Contact Us</a></li>
+                    <li><a href="${contextRoot}/Help">Help</a></li>
+                    <li><a href="${contextRoot}/AboutUs">About Us</a></li>
                 </ul>  
             </div>
         </div>

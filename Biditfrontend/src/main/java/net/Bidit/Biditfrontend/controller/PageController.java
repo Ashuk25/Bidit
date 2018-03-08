@@ -44,7 +44,7 @@ public class PageController {
 	{
 		ModelAndView mv=new ModelAndView("page");
 		mv.addObject("title","Buy It Now");
-		mv.addObject("userClickAntique",true);
+		mv.addObject("userClickBuyItNow",true);
 		return mv;
 	}
 	@RequestMapping(value= {"/Help"})
