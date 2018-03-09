@@ -2,7 +2,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-3 col-xs-12"></div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <form class="form-container" action="" method="post" id="login_form">
+                    <form class="form-container" action="${contextRoot}/home" method="post" id="login_form">
                         <h1 style="text-align:center;">Sign In</h1><br>
                   <div class="row">  
                     <div class="form-group form-group-lg col-lg-12">                     
