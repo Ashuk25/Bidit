@@ -23,8 +23,8 @@
         <link rel="stylesheet" type="text/css" href="${css}/input.css">
         <link rel="stylesheet" type="text/css" href="${css}/background.css">
         <script src="${js}/jquery-3.2.1.min.js"></script>
-        <script src="${js}/jquery.lightbox-0.5.js"></script>
         <script src="${js}/bootstrap.min.js"></script>
+        <script src="${js}/bootstrapValidator.min.js"></script>
         <script src="${js}/Time.js"></script>
   		<script src="${js}/navactive.js"></script>
       
